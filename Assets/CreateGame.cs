@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CreateGame : MonoBehaviour {
 
     public GameObject firtst;
     public GameObject second;
+    public Text Status;
 
     public GameObject prefab;
     private float y =  0.5f;
